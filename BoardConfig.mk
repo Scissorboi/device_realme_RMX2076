@@ -20,5 +20,8 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/RMX2076_defconfig
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := RMX2076,RMX2071CN,RM2076PU
+
 # Inherit from the proprietary version
 include vendor/realme/RMX2076/BoardConfigVendor.mk
