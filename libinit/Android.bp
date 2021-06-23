@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libinit_RMX2076n",
+    defaults: ["//device/realme/sm8250-common:libinit_kona_defaults"],
+    srcs: ["init_RMX2076n.cpp"],
+    whole_static_libs: ["//device/realme/sm8250-common:libinit_kona"],
+}
