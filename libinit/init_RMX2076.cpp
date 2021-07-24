@@ -7,8 +7,8 @@
 #include <libinit_kona.h>
 
 static const variant_info_t RMX2071CN_info = {
-    .prop_key = "ro.boot.hwc",
-    .prop_value = "CN",
+    .hwc_value = "CN",
+    .sku_value = ""
 
     .brand = "Realme",
     .device = "RMX2076",
@@ -16,11 +16,13 @@ static const variant_info_t RMX2071CN_info = {
     .model = "RMX2076",
     .build_description = "11 RMX2076_11_C.15_210325 root09230237 release-keys",
     .build_fingerprint = "11-RMX2076_11_C.15_210325-root09230237-release-keys",
+
+    .nfc = true
 };
 
 static const variant_info_t RMX2076_info = {
-    .prop_key = "ro.boot.product.hardware.sku",
-    .prop_value = "std",
+    .hwc_value = "",
+    .sku_value = "std",
 
     .brand = "Realme",
     .device = "RMX2076",
@@ -28,11 +30,13 @@ static const variant_info_t RMX2076_info = {
     .model = "RMX2076",
     .build_description = "RMX2076-user 11 RKQ1.200826.002 V12.1.3.0.RJDMIXM release-keys",
     .build_fingerprint = "Realme/RMX2076_global/RMX2076:11/RKQ1.200826.002/V12.1.3.0.RJDMIXM:user/release-keys",
+
+    .nfc = true,
 };
 
 static const variant_info_t RMX2076PU_info = {
-    .prop_key = "ro.boot.product.hardware.sku",
-    .prop_value = "pro",
+    .hwc_value = "",
+    .sku_value = "pro"
 
     .brand = "Realme",
     .device = "RMX2076",
@@ -40,6 +44,8 @@ static const variant_info_t RMX2076PU_info = {
     .model = "RMX2076",
     .build_description = "RMX2076PU-user 11 RKQ1.200826.002 V12.1.3.0.RJDMIXM release-keys",
     .build_fingerprint = "Realme/RMX2076PU_global/RMX2076PU:11/RKQ1.200826.002/V12.1.3.0.RJDMIXM:user/release-keys",
+
+    .nfc = true,
 };
 
 static const std::vector<variant_info_t> variants = {
