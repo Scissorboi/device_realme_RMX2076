@@ -15,11 +15,11 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_realme_RMX2076
-TARGET_RECOVERY_DEVICE_MODULES := init_realme_RMX2076
+#TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_realme_RMX2076
+#TARGET_RECOVERY_DEVICE_MODULES := init_realme_RMX2076
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := RMX2076,RMX2071CN,RM2076PU
 
 # Inherit from the proprietary version
-include vendor/realme/RMX2076/BoardConfigVendor.mk
+#include vendor/realme/RMX2076/BoardConfigVendor.mk

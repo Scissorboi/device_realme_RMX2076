@@ -30,4 +30,4 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 $(call inherit-product, device/realme/sm8250-common/kona.mk)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/realme/RMX2076/RMX2076-vendor.mk)
+#$(call inherit-product, vendor/realme/RMX2076/RMX2076-vendor.mk)
